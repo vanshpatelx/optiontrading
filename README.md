@@ -18,8 +18,7 @@
    - Initial implementation using core functions.
    - **Challenges/Improvements**:
      1. Need to call the exchange for order matching after every placement.
-   
-- [ ] **Phase 2: API Layer**: Build API layer
-- [ ] **Phase 3: Exchange Logic**: Seprate exchange and stock managment.
+- [X] **Phase 2: API Layer**: Build API layer
+- [X] **Phase 3: Exchange Logic**: Seprate exchange and stock managment.
 - [ ] **Phase 4: WebSocket Integration**: Add WebSocket 
 - [ ] **Phase 5: Authentication**: authentication and authorization.

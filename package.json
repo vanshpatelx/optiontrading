@@ -1,0 +1,29 @@
+{
+  "name": "optiontrade",
+  "version": "1.0.0",
+  "description": "### Key Features: 1. **Order Management**: Create buy and sell orders. 2. **Portfolio Management**: Handle the portfolio and order book. 3. **Balance Management**: Manage user balance, including deposits and withdrawals.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/server.js",
+    "dev": "nodemon src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/connect": "^3.4.38",
+    "@types/express": "^5.0.0",
+    "@types/http-errors": "^2.0.4",
+    "@types/mime": "^3.0.4",
+    "@types/node": "^22.7.5",
+    "@types/qs": "^6.9.16",
+    "@types/range-parser": "^1.2.7",
+    "@types/send": "^0.17.4",
+    "@types/serve-static": "^1.15.7",
+    "express": "^4.21.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
